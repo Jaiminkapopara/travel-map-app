@@ -15,7 +15,7 @@ import Login from './components/Login';
 
 function App() {
 
-  const MAPBOX_TOKEN = 'pk.eyJ1IjoiamFja29iYSIsImEiOiJjbGEzdm5lamEwd2V3M3FxdjR6ZDd1NHJhIn0.Z9Z9lcCDEOVIwHiulcLoJQ'
+  const MAPBOX_TOKEN = ''
 
 
   const myStorage = window.localStorage
