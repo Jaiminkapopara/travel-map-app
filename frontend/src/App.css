@@ -1,0 +1,127 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.app{
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+
+
+.card{
+  width: 250px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
+  border: 3px solid #FFD4CC;
+  z-index: 999;
+}
+
+label{
+  color: tomato;
+  width: max-content;
+  font-size: 13px;
+  border-bottom: 0.5px solid tomato;
+  margin: 3px 0;
+}
+
+.desc{
+  font-size: 14px;
+}
+
+.place{
+  font-size: 20px;
+}
+
+.star{
+  color: gold;
+}
+
+.username{
+  font-size: 14px;
+}
+
+.date{
+  font-size: 12px;
+}
+
+form {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: rgb(88, 87, 87);
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 12px;
+  color: rgb(185, 184, 184);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+textarea {
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.submitButton {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: tomato;
+  cursor: pointer;
+}
+
+.buttons,
+.logout {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.button {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.button:focus{
+  outline: none;
+}
+
+.logout{
+  background-color: rgb(241, 62, 42);
+  
+}
+
+.login{
+  background-color: teal;
+  margin-right: 10px;
+}
+
+.register{
+  background-color: slateblue;
+}
+
