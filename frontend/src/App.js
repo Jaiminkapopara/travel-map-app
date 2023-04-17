@@ -117,7 +117,7 @@ function App() {
         onDblClick={ handleAddClick}
       > */}
 
-        {pins.map((p) => {
+        {pins?.map((p) => {
 
           return <>
            
